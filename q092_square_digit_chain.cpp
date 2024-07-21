@@ -1,3 +1,4 @@
+// find the sum of squares of digits of a number, repeates unit it reaches 1 or 89. Find the number of numbers that reach 89 for numbers upto 10^7
 #include<bits/stdc++.h>
 using namespace std;
 long long square_sum_of_digit(long long n)
@@ -64,5 +65,5 @@ int main()
             count_89++;
         }
     }
-    cout<<count_1<<" "<<count_89<<endl;
+    cout<<count_89<<endl;
 }
